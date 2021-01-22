@@ -25,6 +25,6 @@ Route::get('start1', function () {
 Route::get('start2', function () {
     return view('start2', ['name' => 'Giulio Cesare']);
 });
-Route::get('start3', 'MainController@test');
+// Route::get('start3', 'MainController@test');
 Route::get('start3', 'MainController@test2');
-Route::get('start3', 'MainController@test3');
+// Route::get('start3', 'MainController@test3');
